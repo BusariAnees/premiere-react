@@ -17,6 +17,19 @@ header{
    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.header {
+    display: flex;
+    align-items: center;
+}
+.header p {
+    margin-left: 4px;
+    color: rgb(103, 220, 249);
+}
+
+.main {
+    padding: 2rem;
+}
+
 .image{
     width:40px;
 }
@@ -33,10 +46,15 @@ header{
     font-size: 1.1rem;
 }
 
+ul li::marker {
+    color: rgb(103, 220, 249);
+    font-size: 20px;
+}
+
 footer {
     background: black;
     padding: 0.9rem;
     width: 100%;
-    margin-top: 25rem;
+    margin-top: 20rem;
     display: block;
 }
