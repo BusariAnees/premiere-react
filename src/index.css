@@ -44,11 +44,16 @@ header{
 .nav-list li {
     margin-right: 35px;
     font-size: 1.1rem;
+   
 }
 
 ul li::marker {
     color: rgb(103, 220, 249);
     font-size: 20px;
+}
+
+ul > li {
+    padding-block: 0.7rem;
 }
 
 footer {
