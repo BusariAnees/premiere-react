@@ -12,19 +12,19 @@ export default function App() {
     //     setup={joke.setup} punchline= {joke.punchline} />
     // })
     return (
-        // <>
-        //  <Navbar />
-        //   <Main />
-        // </>
+        <>
+         <Navbar />
+          <Main />
+        </>
 
     //    <main> <h2>{ninjaTurtle[0]}</h2>
     //    <h2>{ninjaTurtle[1]}</h2>
     //    <h2>{ninjaTurtle[2]}</h2>
     //    <h2>{ninjaTurtle[3]}</h2></main>
 
-    <main>
-{jokesElements}
-    </main>
+//     <main>
+// {jokesElements}
+//     </main>
     )
 }
 
